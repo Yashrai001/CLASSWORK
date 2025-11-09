@@ -1,0 +1,38 @@
+.description{
+    font-size:larger;
+}
+.price{
+    color:red;
+    font-weight:100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image {
+    image-rendering:auto;
+    border-image: round;
+    height:200px;
+}
+.button:hover{
+    background-color:blue;
+    color:white;
+}
+.button:hover{
+    transform : scale(1.03);
+}
+div {
+    border: 2px solid black ;
+    margin-left: 525px;
+    margin-right: 525px;
+    padding-bottom: 15px;
+    background : lightgray;
+    border-radius: 10px;
+    transition : transform 0.3s ease;
+}
+div:hover {
+    transform : scale(1.03);
+}
+body{
+    background : #333;
+}
+h1{
+    color : white;
+}
