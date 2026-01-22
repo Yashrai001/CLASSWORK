@@ -1,0 +1,41 @@
+.description{
+    font-size:larger;
+    margin : 10px ;
+}
+.price{
+    color:red;
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom:15px;
+}
+.image {
+    height:auto; /*keep the image in same proportion*/
+    width : 100%; /* Image takes full box width*/
+    border-radius:5px;
+}
+.button{
+    background-color:blue;
+    color:white;
+    padding : 10px 20px;
+    border:none;
+    border-radius:5px;
+}
+.button:hover{
+    background-color:red;
+}
+div {
+    border: 2px solid gray;
+    margin : auto;
+    width :300px;
+    padding: 15px;
+    background : white ;
+    border-radius: 8px;
+}
+body{
+    background : lightgray;
+    font-family :Arial, Helvetica, sans-serif;
+}
+h1{
+    color : black;
+    margin-bottom: 30px;
+}
